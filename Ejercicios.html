@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="Scripts.js"></script>
+    <script type="text" src="Estilo.css"></script>
+</head>
+
+<body>
+    <h3 class="text-center">EJERCICIO 1</h3>
+    <!-- 1. Disponer dos párrafos.Capturar el evento click
+    solo del primero utilizando la librería jQuery. -->
+    <div class="container">
+        <p id="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis dolor aspernatur, corporis totam reprehenderit
+            doloribus fugit veniam delectus sed rerum minus officiis,
+            quo quisquam maxime alias maiores neque. Illo, ad!</p>
+
+        <p id="parrafo2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repellendus dicta at beatae quis delectus dolorem fuga
+            error reprehenderit? Odit expedita corrupti illum minima
+            ratione nam. Recusandae necessitatibus unde rerum modi!</p>
+    </div>
+
+    <h3 class="text-center">EJERCICIO 2</h3>
+    <!--Ejercicio 2: 2.	Mostrar una lista no ordenada con 4 
+            elementos 'li'. Ocultar el que se presiona. 
+            Para ocultar un elemento jQuery tiene un método 
+            llamado hide().-->
+    <div class="container">
+        <ul>
+            <li>Envidia</li>
+            <li>Codicia</li>
+            <li>Gula</li>
+            <li>Lujuria</li>
+        </ul>
+    </div>
+
+    <h3 class="text-center">EJERCICIO 3</h3>
+    <!-- 3. Confeccionar una página que muestre dos tablas con tres 
+    filas cada una. Cambiar el color de fondo de cada fila de la primer 
+    tabla cuando sea presionada con el mouse(evento click).-->
+    <div class="container">
+        <table class="table text-center">
+            <thead class="thead-dark">
+                <tr>
+                    <th>nombre</th>
+                    <th>apellido</th>
+                    <th>edad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="fila">
+                    <th>fulano</th>
+                    <th>piedra</th>
+                    <th>25</th>
+                </tr>
+                <tr class="fila">
+                    <th>mengano</th>
+                    <th>tierra</th>
+                    <th>30</th>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>
+            <table class="table text-center">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>nombre</th>
+                        <th>apellido</th>
+                        <th>edad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>fulano</th>
+                        <th>piedra</th>
+                        <th>25</th>
+                    </tr>
+                    <tr>
+                        <th>mengano</th>
+                        <th>tierra</th>
+                        <th>30</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <h3 class="text-center">EJERCICIO 4</h3>
+    <!-- 4.	Disponer un título de noticia y seguidamente la descripción 
+        de la noticia (encerrarlo en un div con un nombre de clase), 
+        repetir esto para tres noticias. Agregar tres botones que 
+        rescaten el nombre de la clase para la descripción de la noticia 
+        y cambien su tamaño de fuente. -->
+    <div class="container">
+        <div class="container">
+            <h3>Noticia 1</h3>
+            <p id="noticia1">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptas, maxime, quam ullam nam saepe molestiae quisquam
+                itaque dolore earum dolor praesentium non debitis voluptates
+                alias odio? Quia quo corrupti vero?</p>
+            <div>
+                <button id="boton1" class="btn btn-primary">Parrafo 1</button>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <h3>Noticia 2</h3>
+            <p id="noticia2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Esse officia id quos enim aliquam aspernatur soluta
+                consectetur dicta, corrupti, cumque ex, omnis voluptatem
+                sint. Illo labore facere eaque iure quae.</p>
+            <div>
+                <button id="boton2" class="btn btn-primary">Parrafo 2</button>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <h3>Noticia 3</h3>
+            <p id="noticia3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae tenetur, dolores cum hic autem quasi sunt
+                voluptatum veniam laboriosam officia, porro ea illum,
+                voluptates iste saepe corrupti optio ad accusamus?</p>
+            <div>
+                <button id="boton3" class="btn btn-primary">Parrafo 3</button>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <h3 class="text-center">EJERCICIO 5</h3>
+    <!-- 5.	Crear una página que contenga dos tablas de 3 filas y 
+        3 columnas cada una con un texto en cada casillero. 
+        Luego al presionar un botón cambiar por la cadena "-" 
+        solo el contenido de la primer tabla, dejando intacto el 
+        de la segunda.-->
+    <div class="container">
+        <table class="table text-center">
+            <thead class="thead-dark">
+                <tr>
+                    <th>nombre</th>
+                    <th>apellido</th>
+                    <th>edad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="tabla1">fulano</th>
+                    <th class="tabla1">piedra</th>
+                    <th class="tabla1">25</th>
+                </tr>
+                <tr>
+                    <th class="tabla1">mengano</th>
+                    <th class="tabla1">tierra</th>
+                    <th class="tabla1">30</th>
+                </tr>
+                <tr>
+                    <th class="tabla1">mengano</th>
+                    <th class="tabla1">tierra</th>
+                    <th class="tabla1">30</th>
+                </tr>
+            </tbody>
+            <div>
+                <button id="boton" class="btn btn-primary">Tabla 1</button>
+            </div>
+        </table>
+
+        <div>
+            <table class="table text-center">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>nombre</th>
+                        <th>apellido</th>
+                        <th>edad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>fulano</th>
+                        <th>piedra</th>
+                        <th>25</th>
+                    </tr>
+                    <tr>
+                        <th>mengano</th>
+                        <th>tierra</th>
+                        <th>30</th>
+                    </tr>
+                    <tr>
+                        <th>mengano</th>
+                        <th>tierra</th>
+                        <th>30</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <h3 class="text-center">EJERCICIO 6</h3>
+    <!-- 6.	Confeccionar una página que tenga dos botones. 
+        El primero debe mostrar en un alert el contenido HTML 
+        de la cabecera de la página y el segundo el contenido HTML 
+        del cuerpo de la página.-->
+    <div class="container text-center">
+        <button id="head" class="btn btn-primary">Contenido Head</button>
+        <button id="body" class="btn btn-primary">Contenido Body</button>
+    </div>
+    <br>
+
+    <h3 class="text-center">EJERCICIO 7</h3>
+    <!-- 7.	Definir una tabla con un conjunto de filas y columnas. 
+        Definir dos estilos, uno para la sección thead y otro para 
+        la sección tbody. Mediante dos botones permitir asociar y 
+        desasociar clases.-->
+    <div class="container">
+        <table class="table text-center">
+            <thead class="thead-dark">
+                <tr>
+                    <th>nombre</th>
+                    <th>apellido</th>
+                    <th>edad</th>
+                    <th>opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="fila1">
+                    <th>fulano</th>
+                    <th>piedra</th>
+                    <th>25</th>
+                    <th><button id="asociar1" class="btn btn-primary">Asociar</button>
+                        <button id="desasociar1" class="btn btn-secondary">Desasociar</button></th>
+                </tr>
+                <tr id="fila2">
+                    <th>mengano</th>
+                    <th>tierra</th>
+                    <th>30</th>
+                    <th><button id="asociar2" class="btn btn-primary">Asociar</button>
+                        <button id="desasociar2" class="btn btn-secondary">Desasociar</button></th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3 class="text-center">EJERCICIO 8</h3>
+    <!-- 8.	Crear una tabla con dos filas y dos columnas, 
+        cambiar el color del interior de la casilla cuando 
+        ingresamos con el mouse y regresarla al original 
+        cuando salimos.-->
+    <div class="container">
+        <table class="table text-center">
+            <thead>
+                <tr>
+                    <th class="registro">nombre</th>
+                    <th class="registro">apellido</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="registro">fulano</th>
+                    <th class="registro">piedra</th>
+                </tr>
+                <tr>
+                    <th class="registro">mengano</th>
+                    <th class="registro">tierra</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3 class="text-center">EJERCICIO 9</h3>
+    <!-- 9.	Disponer un div de 800x70 píxeles. Al hacer doble clic 
+        redimensionarlo a 250x250 píxeles y si se hace doble clic 
+        nuevamente retornar al tamaño 800x70.-->
+    <div class="container" style="width: 800px; height: 300px;">
+        <div class="container" id="contenedor" style="width: 800px; height: 70px;">
+            <h5 id="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet, dolores quo accusamus voluptatibus facere
+                asperiores autem blanditiis assumenda nemo, explicabo
+                laboriosam dignissimos doloribus alias perferendis officia
+                doloremque sunt possimus. Quae!</h5>
+        </div>
+    </div>
+    <br>
+
+    <h3 class="text-center">EJERCICIO 10</h3>
+    <!-- 10.Confeccionar una página que contenga un div con un conjunto 
+        de párrafos. Cuando se presione con el mouse dentro del div 
+        ocultarlo lentamente y cuando esté completamente oculto hacer 
+        que aparezca lentamente otro bloque de texto.-->
+    <div class="container" id="contenedor2">
+        <h5 id="texto1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Eveniet, dolores quo accusamus voluptatibus facere
+            asperiores autem blanditiis assumenda nemo, explicabo
+            laboriosam dignissimos doloribus alias perferendis officia
+            doloremque sunt possimus. Quae!</h5>
+
+        <h5 id="texto2" style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Incidunt, sed in? Fugit quis esse quam blanditiis
+            quasi eveniet autem. Ab, magni perspiciatis eius ratione
+            esse excepturi qui culpa repellat delectus.</h5>
+
+        <h5 id="texto3" style="display: none;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Facilis assumenda omnis tempora ullam sapiente natus dolorem,
+            distinctio a saepe recusandae deserunt labore blanditiis voluptate
+            aliquam porro veniam quia minima earum.</h5>
+    </div>
+</body>
+
+</html>
